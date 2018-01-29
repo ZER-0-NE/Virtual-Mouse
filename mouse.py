@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pyautogui as gui
 import pickle
-import thread
+import threading
 gui.FAILSAFE = False
 
 def top(collection, key, n):
